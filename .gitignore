@@ -2,5 +2,5 @@
 /desktop.ini
 
 *.products/
-*.buildv.*
-.mx2
+*.buildv.*/
+.mx2/
