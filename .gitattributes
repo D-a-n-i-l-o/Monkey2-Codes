@@ -1,0 +1,14 @@
+# tell linguist (https://github.com/github/linguist)
+# to ignore all files in this repo, so they do not get
+# classified automatically
+#
+# https://github.com/github/linguist#overrides
+
+* linguist-vendored
+
+# allow .monkey2 files
+#
+# linguist will only classify .monkey2 files
+# and therefore sets the language of the repository to "Monkey"
+
+*.monkey2 linguist-vendored=false
